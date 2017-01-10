@@ -1,6 +1,7 @@
 package chat.model;
 
 import java.util.ArrayList;
+import chat.tests.ChatbotTest;
 
 /**
  * Base version of the 2015 Chatbot class. Only stub methods are provided.
@@ -118,13 +119,9 @@ public class Chatbot
 	{
 		boolean haspoliticalTopicChecker = false;
 		
-		if(politicalTopicChecker.contains("libereal"))
+		if(politicalTopicChecker.contains("Democrat"))
 		{
 			haspoliticalTopicChecker = true;
-		}
-		else
-		{
-			return false;
 		}
 		
 		return haspoliticalTopicChecker;
